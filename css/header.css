@@ -1,3 +1,6 @@
+nav > ul{
+    display: flex;
+}
 nav li{
     list-style: none;
     display: inline;
@@ -11,4 +14,14 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color: black;
+}
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }
